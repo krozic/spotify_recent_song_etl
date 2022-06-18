@@ -1,4 +1,4 @@
-![Spotify ETL](./figures/Spotify_ETL.svg)
+![Spotify ETL](./figures/Spotify_ETL.png)
 
 ## Spotify ETL Using Python, Apache Airflow, and MS SQL Server
 The Spotify API documentation is very well written and can be used as a walkthrough for a wide variety of project applications. In this project I set up a daily extraction of my recently played tracks using Python for the data processing and Apache Airflow as the scheduler. The resulting data is appended to a database on a local Microsoft SQL Server.
