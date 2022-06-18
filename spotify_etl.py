@@ -1,4 +1,5 @@
 from cred_refresh import Refresh
+from secrets import server
 import pandas as pd
 import requests
 from datetime import datetime, timedelta
@@ -31,7 +32,7 @@ def check_if_valid_data(df) -> bool:
 def run_spotify_etl():
     # define components of our connection string
     driver = '{ODBC DRIVER 17 for SQL Server}'
-    server = 'DESKTOP-MH2FIN2\SQLEXPRESS'
+    # server = 'localhost\server_name'
     database = 'SpotifySongs'
 
     # define our connection string
