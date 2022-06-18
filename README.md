@@ -1,4 +1,4 @@
-![Spotify ETL](./figures/Spotify_ETL.png)
+![Spotify ETL](./figures/Spotify_ETL.svg)
 
 Made with [draw.io](https://drive.google.com/file/d/1GGBgKkbAsrv0-ypzIxPXeZlYJxb4aL-O/view?usp=sharing)
 
